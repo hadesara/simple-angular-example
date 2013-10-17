@@ -1,0 +1,16 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<div ng-app ng-controller="donutCtrl">
+			{{project}}
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script>
+			function donutCtrl($scope) 
+			{ 
+				$scope.project = 'Simplest Angular sample';
+			}
+		</script>
+	</body>
+</html>
