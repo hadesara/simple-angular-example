@@ -1,0 +1,19 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<div ng-app ng-controller="donutCtrl">
+			{{project}}
+		</div>
+		<button id="sayHello">Hello</button>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script src='@routes.WebJarAssets.at(WebJarAssets.locate("jstest2.js"))'></script>
+		<script>
+			function donutCtrl($scope) 
+			{ 
+				$scope.project = 'Simplest Angular sample';
+			}
+			$('#sayHello').click(hello);
+		</script>
+	</body>
+</html>
